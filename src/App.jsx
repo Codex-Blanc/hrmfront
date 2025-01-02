@@ -31,7 +31,7 @@ import ModuleDashboard from './components/Employee/Module.jsx';
 import { UserProvider } from './UserContext';
 
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://sowmi-proj.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
